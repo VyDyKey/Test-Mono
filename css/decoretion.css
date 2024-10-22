@@ -35,3 +35,42 @@ h4{
     font-weight: 400;
 }
 
+button{
+    border: unset;
+    background: unset;
+}
+
+a{
+    all: unset;
+}
+
+li{
+    all: unset;
+}
+
+.way{
+    background-color: #F5F5F5;
+    margin-top: 21px;
+}
+
+.way p{
+    padding-top: 21px;
+}
+
+.way pre{
+    width: 131px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 14.4px;
+    align-items: center;
+}
+
+.way-span{
+    color: #797986;
+}
+
+.way h1{
+    width: 246px;
+    margin: 0 auto;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+/* header */
+
+header{
+    display: flex;
+    margin-left: 315px;
+}
+
+.menu{
+    width: 32px;
+    margin-right: 59px;
+}
+
+.nav-items{
+    display: flex;
+    width: 408px;
+    justify-content: space-between;
+    margin-right: 93px;
+}
+
+
+
+
+/* main */
+
+.way-items{
+    display: flex;
+    width: 131px;
+    margin: 0 auto;
+}
+
