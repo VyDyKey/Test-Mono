@@ -7,7 +7,9 @@
 </head>
 <body>
     <header>
-        <img src="img/Меню.svg" width="32" height="12" alt="кнопка меню">
+        <button class="menu" type="menu">
+            <img src="img/Меню.svg" width="32" height="12" alt="кнопка меню">
+        </button>
         <nav class="navigation">
             <ul class="nav-items">
                 <li class="nav-item"><a href="#">Упаковка</a></li>
@@ -16,8 +18,12 @@
             </ul>
         </nav>
         <img class="logo" src="img/Frame.png" width="106" height="64" alt="логотип компании">
-        <img class="comparison" src="img/Сравение.svg" width="12" height="16" alt="кнопка сравнения">
-        <img class="search" src="img/Поиск.svg" width="18" height="18.59">
+        <button class="comparison" type="button" >
+            <img src="img/Сравение.svg" width="12" height="16" alt="кнопка сравнения">
+        </button>
+        <button class="search" type="button">
+            <img  src="img/Поиск.svg" width="18" height="18.59" alt="кнопка поиска">
+        </button>
         <div>
             <a class="phone" type="phone" href="tel:++74991361718">+7 (499) 136-17-18</a>
             <a class="email" type="email" href="malito:info@monevac.ru">info@monevac.ru</a>
@@ -31,28 +37,27 @@
             <h1>Контакты</h1>
         </div>
         <section class="information">
-            <p class="info-phone">8 (903) 467 98 51</p>
-            <a  class="info-email" type="email" href="malito:info@monevac.ru">info@monevac.ru</a>
-            <p>Полное наименование:<br> 
-                Общество с ограниченной ответственностью «МОНЕВАК»<br>
-                Сокращенное наименование: ООО «МОНЕВАК»
-            </p>
-            <p>
-                ИНН: 3448050610<br>
-                КПП: 344801001<br>
-                ОКПО: 67354285<br>
-                ОКАТО: 18401000000<br>
-                ОГРН: 1103461002480<br>
-                Код по ОКВЭД: 51.70<br>
-
-                Банк: Филиала «Ростовский» ОАО «Альфа-Банк» г Ростов на Дону<br>
-                БИК: 046015207<br>
-                к/с: 30101810500000000207<br>
-                р/с: 40702810926090000003<br>
-
-                Юридический адрес: 400080, Волгоградская обл. г. Волгоград ул. Командира Рудь,14А, офис 13<br>
-                Почтовый адрес: 400080, Волгоградская обл. г. Волгоград ул. Командира Рудь, 14А, офис 13<br>
-            </p>
+            <ul class="information-items">
+                <li class="information-item">8 (903) 467 98 51</li>
+                <li class="information-item"><a  class="info-email" type="email" href="malito:info@monevac.ru">info@monevac.ru</a></li>
+                <li class="information-item">Полное наименование: Общество с ограниченной ответственностью «МОНЕВАК» Сокращенное наименование: ООО «МОНЕВАК»</li>
+                <li class="information-item">
+                    <ul class="information-requisites">
+                        <li class="information-requisite">ИНН: 3448050610</li>
+                        <li class="information-requisite">КПП: 344801001</li>
+                        <li class="information-requisite">ОКПО: 67354285</li>
+                        <li class="information-requisite">ОКАТО: 18401000000</li>
+                        <li class="information-requisite">ОГРН: 1103461002480</li>
+                        <li class="information-requisite">Код по ОКВЭД: 51.70</li>
+                        <li class="information-requisite">Банк: Филиала «Ростовский» ОАО «Альфа-Банк» г Ростов на Дону</li>
+                        <li class="information-requisite">БИК: 046015207</li>
+                        <li class="information-requisite">к/с: 30101810500000000207</li>
+                        <li class="information-requisite">р/с: 40702810926090000003</li>
+                        <li class="information-requisite">Юридический адрес: 400080, Волгоградская обл. г. Волгоград ул. Командира Рудь,14А, офис 13</li>
+                        <li class="information-requisite">Почтовый адрес: 400080, Волгоградская обл. г. Волгоград ул. Командира Рудь, 14А, офис 1</li>
+                    </ul>
+                </li>
+            </ul>
         </section>
         <section class="quetions">
             <h2>Оставлись вопросы?</h2>
