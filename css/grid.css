@@ -1,4 +1,6 @@
 /* header */
+@media screen and (min-width:768px) {
+    
 
 header{
     display: flex;
@@ -28,3 +30,4 @@ header{
     margin: 0 auto;
 }
 
+}

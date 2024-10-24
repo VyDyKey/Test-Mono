@@ -12,6 +12,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color: #262633;
 }
 
 h1{
@@ -73,4 +74,90 @@ li{
     width: 246px;
     margin: 0 auto;
     align-items: center;
+}
+
+.navigation-email{
+    color: #797986;
+}
+
+.button{
+    background-color: #BF2738;
+    border-radius: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 190px;
+    height: 52px;
+}
+
+.info-email{
+    font-size: 25px;
+    color: #BF2738;
+
+}
+
+.information-item-name{
+    font-size: 17px;
+    line-height: 18.7px;
+}
+
+.information-requisites{
+    color:#808080 ;
+    font-size: 13px;
+    line-height: 19.5px;
+}
+
+.input-field{
+    background-color: #F5F5F5;
+    width: 300px;
+    height: 52px;
+    color: #797986;
+    border-radius: 14px;
+    border: 0px;
+    padding: 17px 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.input-field-message{
+    background-color: #F5F5F5;
+    width: 630px;
+    height: 133px;
+    color: #797986;
+    border-radius: 14px;
+    border: 0px;
+    padding-top: 17px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.input-field-message::placeholder {
+    transform: translateY(-50px);
+  }
+
+input:focus::placeholder {
+    transform: translateY(-20px);
+    font-size: 12px;
+}
+
+input:focus{
+    color: #262633;
+}
+
+input:invalid{
+    background-color: #BF27381F;
+    color: #BF2738;
+}
+
+input:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #E6E6E6;
+}
+
+input:active{
+    background-color: #F5F5F5;
+    color: #262633;
+}
+
+.input-field-phone::placeholder{
+    transform: none;
 }
