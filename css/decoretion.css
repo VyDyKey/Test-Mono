@@ -79,7 +79,7 @@ li{
 .navigation-email{
     color: #797986;
 }
-
+/* ---------------------------------button------------------------------------ */
 .button{
     background-color: #BF2738;
     border-radius: 14px;
@@ -89,10 +89,22 @@ li{
     height: 52px;
 }
 
+.button:hover{
+    background-color: #CC2A3C;
+}
+
+.button:active{
+    background-color: #991F2D;
+}
+
+/* ------------------------------------------------------------------------------ */
+
 .info-email{
     font-size: 25px;
-    color: #BF2738;
+}
 
+.email{
+    color: #BF2738;
 }
 
 .information-item-name{
@@ -105,7 +117,7 @@ li{
     font-size: 13px;
     line-height: 19.5px;
 }
-
+/* ----------------------------input----------------------------- */
 .input-field{
     background-color: #F5F5F5;
     width: 300px;
@@ -143,21 +155,93 @@ input:focus{
     color: #262633;
 }
 
-input:invalid{
-    background-color: #BF27381F;
-    color: #BF2738;
-}
-
 input:hover{
     background-color: #FFFFFF;
     border: 2px solid #E6E6E6;
 }
 
-input:active{
+/* ------------------------------------------ */
+
+/* ---------------------------checkbox------------------------ */
+
+.quetions-checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
     background-color: #F5F5F5;
-    color: #262633;
+    border: 0px;
+    vertical-align: middle;
 }
 
-.input-field-phone::placeholder{
-    transform: none;
+.quetions-checkbox:hover{
+    background-color: #BF2738;
 }
+
+label{
+    vertical-align: middle;
+}
+
+/* -------------------------------------------------------- */
+
+
+/* _____________________________карточки городов__________________________ */
+
+.contact-cite{
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    padding: 33px 0 0 22px;
+}
+
+.contact-cities{
+    color: #262633;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.phone-cite{
+    font-size: 19px;
+    line-height: 28.5px;
+}
+
+.adress{
+    color: #797986;
+}
+
+.route-cite{
+    color: #BF2738;
+}
+
+/* _______________________________________________________________________ */
+
+.navigation-footer{
+    background-color: #222225;
+    color: #FFFFFF;
+}
+
+.main-nav-item{
+    font-size: 24px;
+    line-height: 33.6px;
+}
+
+.second-nav-item{
+    color: #797986;
+    font-size: 16px;
+    line-height: 28.8px;
+}
+
+.second-nav-item:hover{
+    color: #FFFFFF;
+}
+
+.copyright{
+    font: ;
+    font-size: 13px;
+    line-height: 14.3px;
+    color: #797986;
+}
+
+.contact-footer{
+    background-color: #2A2A2E;
+    color: #FFFFFF;
+}
+
