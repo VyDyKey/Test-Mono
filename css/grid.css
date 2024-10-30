@@ -3,13 +3,19 @@
     
 
 header{
+    width: 1290px;
     display: flex;
-    margin-left: 315px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top:13px ;
+    margin-bottom:15px ;
+    align-items: center;
 }
 
 .menu{
     width: 32px;
     margin-right: 59px;
+    padding: 0;
 }
 
 .nav-items{
@@ -17,17 +23,45 @@ header{
     width: 408px;
     justify-content: space-between;
     margin-right: 93px;
+    padding: 0;
 }
 
+.logo{
+    width: 106px;
+    margin-right: 100px;
+}
 
+.comparison{
+    margin-right: 23px;
+    padding: 0;
+}
 
+.search{
+    margin-right: 58px;
+    padding: 0;
+}
 
 /* main */
 
-.way-items{
+.way-text{
     display: flex;
+    justify-content: space-between;
     width: 131px;
-    margin: 0 auto;
+
+}
+
+.information-quetions{
+    width: 1290px;
+    display: grid;
+    grid-template-columns: 607px 630px;
+    gap: 53px;
+    margin:0 auto;
+    margin-top: 62px;
+    margin-bottom: 66px;
+}
+
+.information-items{
+
 }
 
 }

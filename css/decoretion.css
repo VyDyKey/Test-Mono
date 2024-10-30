@@ -46,24 +46,28 @@ a{
 }
 
 li{
-    all: unset;
+    text-decoration: none;
+    list-style: none;
 }
 
 .way{
     background-color: #F5F5F5;
     margin-top: 21px;
+    height: 160px;
 }
 
-.way p{
-    padding-top: 21px;
-}
-
-.way pre{
-    width: 131px;
+.way-text{
     margin: 0 auto;
     font-size: 12px;
-    line-height: 14.4px;
     align-items: center;
+    color: #797986;
+    height: 14px;
+    padding-top: 21px;
+    margin-bottom: 25px;
+}
+
+.way-line{
+    border-bottom:1px solid black ;
 }
 
 .way-span{
@@ -71,13 +75,25 @@ li{
 }
 
 .way h1{
+    font-size: 46px;
     width: 246px;
     margin: 0 auto;
     align-items: center;
+    margin-top: 24px;
+    margin-bottom: 30px;
 }
 
 .navigation-email{
     color: #797986;
+    font-size: 13px;
+    line-height: 15.6px;
+    width: 400;
+}
+
+.navigation-phone{
+    font-size: 15px;
+    line-height: 18px;
+    width: 500;
 }
 /* ---------------------------------button------------------------------------ */
 .button{
