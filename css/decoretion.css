@@ -5,6 +5,20 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: "RoadRadio";
+    src: url(../fonts/RoadRadioThin.woff) format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "AkzidenzGrotesk";
+    src: url(../fonts/AkzidenzGroteskProRegular.woff) format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -68,6 +82,7 @@ li{
 
 .way-line{
     border-bottom:1px solid black ;
+    opacity: 10%;
 }
 
 .way-span{
@@ -95,8 +110,16 @@ li{
     line-height: 18px;
     width: 500;
 }
+
+.information-item:nth-child(3){
+    font-size: 17px;
+    line-height: 18.7px;
+}
 /* ---------------------------------button------------------------------------ */
 .button{
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'RoadRadio';
     background-color: #BF2738;
     border-radius: 14px;
     color: #FFFFFF;
@@ -129,10 +152,25 @@ li{
 }
 
 .information-requisites{
+    width: 506px;
     color:#808080 ;
     font-size: 13px;
     line-height: 19.5px;
 }
+
+.personal-data{
+    font-size: 13px;
+    color: #808080;
+}
+
+.personal-data > span{
+    color: black;
+}
+
+.quetions-checkbox-personal-data{
+    margin-bottom: 33px;
+}
+
 /* ----------------------------input----------------------------- */
 .input-field{
     background-color: #F5F5F5;
@@ -205,7 +243,7 @@ label{
 .contact-cite{
     background-color: #F5F5F5;
     border-radius: 20px;
-    padding: 33px 0 0 22px;
+    padding: 33px 16px 0 22px;
 }
 
 .contact-cities{
@@ -225,6 +263,12 @@ label{
 
 .route-cite{
     color: #BF2738;
+    padding: 0;
+}
+
+.contact-fax{
+    font-size: 19px;
+    line-height: 28.5px;
 }
 
 /* _______________________________________________________________________ */
@@ -240,6 +284,7 @@ label{
 }
 
 .second-nav-item{
+    font-family: "AkzidenzGrotesk";
     color: #797986;
     font-size: 16px;
     line-height: 28.8px;
@@ -250,7 +295,7 @@ label{
 }
 
 .copyright{
-    font: ;
+    font-family: "AkzidenzGrotesk";
     font-size: 13px;
     line-height: 14.3px;
     color: #797986;
@@ -261,3 +306,31 @@ label{
     color: #FFFFFF;
 }
 
+.contact-footer-info-tel{
+    font-size: 30px;
+    line-height: 39px;
+    width: 500;
+}
+
+.contact-footer-info-email{
+    font-size: 24px;
+    line-height: 33.6px;
+    width: 400;
+}
+
+.contact-footer-info-button{
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.contact-footer-adress{
+    font-family: "AkzidenzGrotesk";
+    font-size: 16px;
+    line-height: 20.8px;
+}
+
+.contact-footer-developer{
+    font-family: "AkzidenzGrotesk";
+    color: #797986;
+    font-size:13px ;
+    line-height: 14.3px;
+}
